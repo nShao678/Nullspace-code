@@ -25,7 +25,9 @@ result.nz = nz;
 result.lambdaN = eval(nz);
 Ql = L'\Q;
 V = Ql*V(:,1:nz);
-M = V'*(A*V);
+AV = A*V;
+M = V'*(AV);
 M = (M+M')/2;
-result.normB = norm(M);
+result.normAV = norm(AV);
+result.normVAV = norm(M);
 end
