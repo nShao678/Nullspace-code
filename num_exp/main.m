@@ -11,11 +11,12 @@
 %     toc
 % end
 % save('data_GL_SV')
-% table = zeros(3,7);
+% table = zeros(4,7);
 % for ii = 1:7
 %     table(1,ii) = result{ii}.eps0;
 %     table(2,ii) = result{ii}.lambdaN;
-%     table(3,ii) = result{ii}.normB;
+%     table(3,ii) = result{ii}.normAV;
+%     table(4,ii) = result{ii}.normVAV;
 % end
 % latex(sym(table));
 
