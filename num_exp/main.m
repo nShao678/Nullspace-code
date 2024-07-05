@@ -34,8 +34,8 @@
 % figure
 % hold on
 % plot(xx,yy,'-','LineWidth',2)
-% ylabel('The number of eigenvalues of $T_\ell$ below $3\epsilon$','Interpreter','latex')
-% xlabel('Dimension $\ell$ of the Krylov space','Interpreter','latex')
+% ylabel('Number of eigenvalues of $T_\ell$ below $3\epsilon$','Interpreter','latex')
+% xlabel('Dimension $\ell$ of Krylov subspace','Interpreter','latex')
 % set(gcf, 'Color', 'w');
 % hold off
 % export_fig('conHis.eps')
