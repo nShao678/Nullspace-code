@@ -2,7 +2,7 @@
 
 This repo contains the implementation of randomized small-block Lanczos for null space computation proposed in [1] and scripts to reproduce the numerical experiments.
 
-The main function of randomized small-block Lanczos method is TRlanczos.m in the num_exp folder.
+The main function of randomized small-block Lanczos method (Algorithm 2 in [1]) is TRlanczos.m in the num_exp folder.
 
 To reproduce Table 1 in Section 1, run main_intro.m in the exp_intro folder.
 
